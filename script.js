@@ -14,6 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 } catch (error) {
                     display.textContent = 'Error';
                 }
+            } else if (buttonText === 'C') {
+                display.textContent = '0';
             } else {
                 if (display.textContent === '0' || display.textContent === 'Error') {
                     display.textContent = buttonText;
